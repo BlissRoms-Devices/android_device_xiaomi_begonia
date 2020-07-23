@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_begonia.mk
+    $(LOCAL_DIR)/revengeos_begonia.mk
+
+COMMON LUNCH CHOICES := \
+    revengeos_begonia-userdebug \
+    revengeos_begonia-user \
+    revengeos_begonia-eng
