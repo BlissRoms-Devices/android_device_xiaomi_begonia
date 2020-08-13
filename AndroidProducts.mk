@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_begonia.mk
+    $(LOCAL_DIR)/bliss_begonia.mk
 
 COMMON LUNCH CHOICES := \
-    revengeos_begonia-userdebug \
-    revengeos_begonia-user \
-    revengeos_begonia-eng
+    bliss_begonia-userdebug \
+    bliss_begonia-user \
+    bliss_begonia-eng
