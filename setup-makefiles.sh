@@ -15,10 +15,9 @@ INITIAL_COPYRIGHT_YEAR=2019
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
+BLISS_ROOT="${MY_DIR}/../../.."
 
-POTATO_ROOT="${MY_DIR}/../../.."
-
-HELPER="${POTATO_ROOT}/vendor/revengeos/build/tools/extract_utils.sh"
+HELPER="${BLISS_ROOT}/vendor/bliss/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -26,7 +25,7 @@ fi
 source "${HELPER}"
 
 # Initialize the helper for common
-setup_vendor "${DEVICE}" "${VENDOR}" "${POTATO_ROOT}" true
+setup_vendor "${DEVICE}" "${VENDOR}" "${BLISS_ROOT}" true
 
 # Copyright headers and guards
 write_headers "${DEVICE}"
