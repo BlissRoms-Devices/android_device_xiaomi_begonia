@@ -97,6 +97,9 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
     android.hardware.drm@1.0-impl:64 \
     android.hardware.drm-service.clearkey
+    
+# Firmware & prebuilt recovery
+$(call inherit-product, vendor/xiaomi/begonia-firmware/begonia-firmware.mk)
 
 # FM Radio
 PRODUCT_PACKAGES += \
