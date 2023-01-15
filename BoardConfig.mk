@@ -16,7 +16,7 @@
 
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
-DEVICE_PATH := device/redmi/begonia
+DEVICE_PATH := device/xiaomi/begonia
 
 # Architecture
 TARGET_ARCH := arm64
@@ -145,4 +145,4 @@ SYSTEM_EXT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Inherit from the proprietary version
-include vendor/redmi/begonia/BoardConfigVendor.mk
+include vendor/xiaomi/begonia/BoardConfigVendor.mk
