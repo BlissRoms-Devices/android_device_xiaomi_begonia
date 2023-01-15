@@ -15,5 +15,3 @@ The Redmi Note 8 Pro | Codename: begonia is a high-end, mid-range smartphone fro
 | Display                 | 1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density)                                                                                         |
 | Camera (Rear - Main)    | 64 MP, f/1.9, 26mm (wide), 1/1.7", 0.8µm, PDAF                                                                                              |
 | Camera (Front)          | 20 MP, f/2.0, 0.9µm                                                                                                                         |
-
-![20221212_001141](https://user-images.githubusercontent.com/111276888/212542501-d9a3c580-4725-42d7-8c49-71753afac9ab.jpg)
