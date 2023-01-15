@@ -29,3 +29,45 @@ cc_library_shared {
         "libmediametrics_headers",
     ],
 }
+
+dex_import {
+	name: "mediatek-common",
+	owner: "redmi",
+	jars: ["framework/mediatek-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-framework",
+	owner: "redmi",
+	jars: ["framework/mediatek-framework.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-base",
+	owner: "redmi",
+	jars: ["framework/mediatek-ims-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-ims-common",
+	owner: "redmi",
+	jars: ["framework/mediatek-ims-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-telecom-common",
+	owner: "redmi",
+	jars: ["framework/mediatek-telecom-common.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-base",
+	owner: "redmi",
+	jars: ["framework/mediatek-telephony-base.jar"],
+}
+
+dex_import {
+	name: "mediatek-telephony-common",
+	owner: "redmi",
+	jars: ["framework/mediatek-telephony-common.jar"],
+}
