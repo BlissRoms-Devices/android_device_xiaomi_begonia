@@ -383,7 +383,7 @@ PRODUCT_PACKAGES += \
     libunwindstack.vendor
 
 # MTK Jars (for IMS)
-include $(LOCAL_PATH)/ims/framework/begonia-ims-vendor.mk
+include $(LOCAL_PATH)/ims/begonia-ims-vendor.mk
 
 PRODUCT_BOOT_JARS += \
     mediatek-common \
